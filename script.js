@@ -4,7 +4,7 @@ function fuc1()
     let url=document.getElementById("url")
     let name=document.getElementById("name")
     let year=document.getElementById("year")
-    let submit=document.getElementById("submit")
+    let submit=document.getElementById("button")
 
     console.log(name.value)
     url.innerText="https://localhost:8080/?"
