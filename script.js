@@ -7,7 +7,7 @@ function fuc1()
     let submit=document.getElementById("submit")
 
     console.log(name.value)
-    url.innerText="https://localhost:8080/?"
+    
     if(name.value=="")
     {
     
