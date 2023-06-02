@@ -7,7 +7,7 @@ function fuc1()
     let submit=document.getElementById("submit")
 
     console.log(name.value)
-    
+    url.innerText="https://localhost:8080/?"
     if(name.value=="")
     {
     
@@ -15,9 +15,10 @@ function fuc1()
     else
     {
         url.innerText=url.innerText+"name="+name.value
-        if(year.value!="")
+        
+    }
+	if(year.value!="")
         {
             url.innerText=url.innerText+"&year="+year.value
         }
-    }
 }
